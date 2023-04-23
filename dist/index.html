@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ajusa/lit@latest/dist/lit.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ajusa/lit@latest/dist/util.css" />
+  <title>NRZ</title>
+</head>
+
+<body>
+  <script src="main.js"></script>
+
+  <div class="c" name="container">
+    <div class="row">
+      <div class="8 col">
+        <input class="card w-100" id="message" placeholder="TEXT" />
+      </div>
+
+      <div class="1 col">
+        <input class="card w-100" id="min" value='-1' />
+      </div>
+
+      <div class="1 col">
+        <input class="card w-100" id="max" value='1' />
+      </div>
+
+      <div class="2 col">
+        <button class="ml3 rounded btn bg-info b-info white" onClick="convert();">Convert!</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
